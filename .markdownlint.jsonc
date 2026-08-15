@@ -1,0 +1,15 @@
+{
+  // markdownlint config tuned for a GitHub *profile* README.
+  // Profile READMEs are badge/banner driven, so a few default rules are
+  // intentionally relaxed while the substantive correctness rules stay on.
+  "default": true,
+
+  // Profile READMEs rely on inline HTML (<p align>, <img>, <a>) for layout.
+  "MD033": false,
+
+  // Long single-line <img>/badge rows are expected and not worth wrapping.
+  "MD013": false,
+
+  // The file legitimately opens with a banner/badge instead of an <h1>.
+  "MD041": false
+}

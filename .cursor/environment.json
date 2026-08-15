@@ -1,0 +1,17 @@
+{
+  "name": "x0sa1d profile README",
+  "install": "bash .cursor/install.sh",
+  "terminals": [
+    {
+      "name": "readme-preview",
+      "command": "grip . 0.0.0.0:6419",
+      "description": "GitHub-accurate live preview of README.md, served at http://localhost:6419 (grip). Refreshes as you edit."
+    }
+  ],
+  "ports": [
+    {
+      "name": "readme-preview",
+      "port": 6419
+    }
+  ]
+}
